@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.storage.utils;
+package com.toytag.storage.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.storage.dynamodb;
+package com.toytag.storage.dynamodb;
 
 import java.io.Serializable;
 import java.util.Date;

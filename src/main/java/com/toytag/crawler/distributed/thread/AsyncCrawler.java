@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.crawler.distributed.thread;
+package com.toytag.crawler.distributed.thread;
 
 import com.amazonaws.services.sqs.AmazonSQS;
 import com.amazonaws.services.sqs.model.*;
@@ -7,13 +7,15 @@ import com.google.common.collect.Sets;
 import com.google.common.collect.Streams;
 import com.google.common.hash.BloomFilter;
 import com.google.common.util.concurrent.MoreExecutors;
+import com.toytag.crawler.distributed.thread.singleton.*;
+import com.toytag.crawler.utils.*;
+import com.toytag.storage.dynamodb.DocumentData;
+import com.toytag.storage.dynamodb.DynamoDBInterface;
+import com.toytag.storage.dynamodb.UrlData;
+import com.toytag.storage.utils.StringUtils;
+
 import crawlercommons.robots.SimpleRobotRules;
-import edu.upenn.cis.cis455.crawler.distributed.thread.singleton.*;
-import edu.upenn.cis.cis455.crawler.utils.*;
-import edu.upenn.cis.cis455.storage.dynamodb.DocumentData;
-import edu.upenn.cis.cis455.storage.dynamodb.DynamoDBInterface;
-import edu.upenn.cis.cis455.storage.dynamodb.UrlData;
-import edu.upenn.cis.cis455.storage.utils.StringUtils;
+
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.core.config.Configurator;
 import org.javatuples.Pair;

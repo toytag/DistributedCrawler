@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.crawler.utils;
+package com.toytag.crawler.utils;
 
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;

@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.storage.dynamodb;
+package com.toytag.storage.dynamodb;
 
 import com.amazonaws.jmespath.ObjectMapperSingleton;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;

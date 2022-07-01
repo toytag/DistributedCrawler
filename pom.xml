@@ -151,7 +151,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>edu.upenn.cis.cis455.crawler.Crawler</mainClass>
+                            <mainClass>edu.upenn.crawler.Crawler</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -171,7 +171,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>edu.upenn.cis.cis455.crawler.Crawler</mainClass>
+                            <mainClass>edu.upenn.crawler.Crawler</mainClass>
                             <arguments>
                                 <argument>3600</argument>
                             </arguments>

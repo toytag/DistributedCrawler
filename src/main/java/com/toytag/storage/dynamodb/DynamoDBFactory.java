@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.storage.dynamodb;
+package com.toytag.storage.dynamodb;
 
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.regions.Regions;

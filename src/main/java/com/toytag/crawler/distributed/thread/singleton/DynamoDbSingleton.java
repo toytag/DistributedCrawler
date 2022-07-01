@@ -1,6 +1,6 @@
-package edu.upenn.cis.cis455.crawler.distributed.thread.singleton;
+package com.toytag.crawler.distributed.thread.singleton;
 
-import edu.upenn.cis.cis455.storage.dynamodb.DynamoDBInterface;
+import com.toytag.storage.dynamodb.DynamoDBInterface;
 
 public class DynamoDbSingleton {
 

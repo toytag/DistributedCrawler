@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.crawler.utils;
+package com.toytag.crawler.utils;
 
 import org.apache.tika.langdetect.optimaize.OptimaizeLangDetector;
 import org.apache.tika.language.detect.LanguageDetector;

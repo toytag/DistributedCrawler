@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.crawler.distributed.thread.singleton;
+package com.toytag.crawler.distributed.thread.singleton;
 
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.regions.Regions;

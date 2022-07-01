@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.crawler.utils;
+package com.toytag.crawler.utils;
 
 import crawlercommons.filters.basic.BasicURLNormalizer;
 import org.jetbrains.annotations.NotNull;

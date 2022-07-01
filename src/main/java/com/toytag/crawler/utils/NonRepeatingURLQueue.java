@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.crawler.utils;
+package com.toytag.crawler.utils;
 
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;

@@ -1,4 +1,4 @@
-package edu.upenn.cis.cis455.crawler.distributed.thread.singleton;
+package com.toytag.crawler.distributed.thread.singleton;
 
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;

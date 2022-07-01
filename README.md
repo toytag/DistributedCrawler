@@ -2,7 +2,17 @@
 
 ## Build & Usage
 
-TODO
+### Maven
+
+```bash
+mvn clean install
+```
+
+### Docker
+
+```bash
+sudo docker build . -t distributed-crawler
+```
 
 ## Introduction
 

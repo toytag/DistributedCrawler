@@ -1,6 +1,6 @@
-package edu.upenn.cis.cis455.crawler.distributed.thread.singleton;
+package com.toytag.crawler.distributed.thread.singleton;
 
-import edu.upenn.cis.cis455.crawler.utils.RobotRulesCache;
+import com.toytag.crawler.utils.RobotRulesCache;
 
 public class RobotRulesCacheSingleton {
 
