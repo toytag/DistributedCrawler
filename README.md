@@ -37,3 +37,8 @@ For the distributed message queue, we simply adopted the Amazon Simple Queue Ser
 ### Miscellaneous
 
 Apart from the design of our crawler, we also embedded several utility features in our document fetching and parsing. For the robots.txt rules of each domain, we use a LRU cache to store them, avoiding having to send too many get requests to the robots rules url. For non-HTML documents, we convert them into byte input streams and parse them using Apache Tika. Tika provides an amazing tool for parsing PDF, pictures and all other file types. It also can determine the language, allowing us to only store English content.
+
+## Efficiency
+For the crawler, as it was given more nodes, the rate at which it crawled and downloaded increased greatly. Specifically, we were able to crawl 20000 documents in 10 minutes with 6 nodes. Below is a sketch performance testing results.
+
+<img src="https://github.com/toytag/DistributedCrawler/blob/static-files/PerformanceTesting.png" alt="PerformanceTesting" width="640"/>
